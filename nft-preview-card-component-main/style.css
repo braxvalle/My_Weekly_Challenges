@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d192b;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+    font-family: 'Big Shoulders Display', cursive;
+
+    font-family: 'Karla', sans-serif;
+
+    font-family: 'Lexend Deca', sans-serif;
+
+    font-family: 'Outfit', sans-serif;
+}
+
+#parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main_content {
+    background-color: #14253d;
+    /*position: absolute;*/
+    border-radius: 20px;
+}
+
+.text1 {
+    margin: 10%;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.ethtime {
+    display: flex;
+    margin: 10%;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.crypto {
+    display: flex;
+}
+
+h3 {
+    color: #00fff7;
+}
+.eth_image, .clock {
+    margin-right: 10px;   
+}
+.time {
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+}
+
+.equi {
+    border-radius: 10px;
+    height: auto;
+    width: 400px;
+    margin: 30px;
+}
+
+.line {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 10%;
+    color: #ffffff;
+}
+.avaimage {
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+}
+
+p {
+    color: #8bacda;
+    font-size: 18px;
+}
+span {
+    color: #8bacda;
+}
+ .avatar p {
+    color: #ffffff;
+ }
+@media (min-width: 375px) {
+    #main_content {
+        margin: 10%;
+    }
+}
