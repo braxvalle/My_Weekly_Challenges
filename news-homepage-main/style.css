@@ -191,9 +191,6 @@ h4 {
         margin: 10px;
     }
 /* navigation settings and styles */
-    .nav {
-        display: none;
-    }
     .nav_links {
         position: absolute;
         top: 0;
@@ -222,7 +219,9 @@ h4 {
         top: 30px;
         cursor: pointer;
     }
-    
+    .nav_links, .close{
+        display:none;
+    }
     /* ******mid_section***** */
     .mid_section {
         flex-direction: column;
